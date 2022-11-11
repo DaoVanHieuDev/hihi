@@ -1,0 +1,79 @@
+/* body,html{
+   
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    justify-content: center;
+    display: flex;
+  
+    background-repeat: x-repeat;
+    align-items: center;
+    background-size: cover;
+    
+} */
+.register-container{
+  
+    background-image: url(https://media.istockphoto.com/id/1216688115/vector/seamless-pattern-with-social-media-elements.jpg?s=612x612&w=0&k=20&c=5c_iSGEPfiNFNKsR2cZaix1plXGuTip3gYF9RYSsCIo=) ;
+    background-size:auto ;
+    height: 100vh;
+    padding-top: 100px;
+   
+}
+.register-form{
+    width: 300px;
+    height: 400px;
+
+padding-top: 25px;
+padding-left: 30px;
+margin-left: 600px;
+
+
+}
+.error{
+    color: red;
+}
+input{
+    border-radius: 5px;
+    width: 230px;
+    height: 25px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgba(174, 108, 67, 0.514);
+    box-shadow:2px #fff;
+}
+#registerForm{
+    padding-top: 50px;
+}
+#register{
+    width: 100px;
+height:30px ;
+    margin-left: 80px;
+    border-radius: 5px;
+    background-color: rgba(255, 208, 127, 0.596);
+    opacity: 0.8;
+    margin-top: 50px;
+
+
+}

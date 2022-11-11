@@ -1,0 +1,80 @@
+/* body,html{
+   
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    justify-content: center;
+    display: flex;
+  
+    background-repeat: x-repeat;
+    align-items: center;
+    background-size: cover;
+     */
+/* } */
+
+.login-form{
+    width: 280px;
+    height: 350px;
+
+padding-top: 20px;
+margin-left: 580px;
+padding-left: 20px;
+
+}
+.error{
+    color: red;
+}
+input{
+    border-radius: 5px;
+    width: 250px;
+    height: 25px;
+    
+}
+
+h2{
+    text-align: center;
+}
+button{
+width: 100px;
+height:30px ;
+    margin-left: 80px;
+    border-radius: 5px;
+    background-color: rgba(255, 208, 127, 0.596);
+    opacity: 0.8;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: rgba(186, 101, 49, 0.514);
+    box-shadow:2px #fff;
+}
+.menu{
+    display: flex;
+  justify-content: space-between;
+    background-color: wheat ;
+    width: 1535px;
+    height: 50px;
+   margin-top: -380px;
+   line-height: 50px;
+   
+}
+.login-container{
+    background-image: url(https://media.istockphoto.com/id/1216688115/vector/seamless-pattern-with-social-media-elements.jpg?s=612x612&w=0&k=20&c=5c_iSGEPfiNFNKsR2cZaix1plXGuTip3gYF9RYSsCIo=);
+    padding-top: 100px;
+    height: 100vh;
+}
