@@ -151,7 +151,7 @@ view.renderListChat = (listMessage) => {
                 </div>
                 </div>  
                 <div class="contentTime ">
-                    ${listMessage[i].message.createdAt}
+                 ${listMessage[i].message.createdAt}
                 </div>
             </div>     
         `
